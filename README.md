@@ -21,48 +21,6 @@ Journey through 16 levels of reality to discover what generates time itself:
 - **Modern Physics**: Includes Standard Model, Noether's Theorem, String Theory, Loop Quantum Gravity, and Emergent Spacetime
 - **Pedagogically Structured**: Detective-story approach, building intuition layer by layer
 
-## 🚀 Deployment to GitHub Pages
-
-### Step 1: Create a GitHub Repository
-
-1. Go to [GitHub](https://github.com) and create a new repository named `levels-of-reality`
-2. Don't initialize with README (we already have one)
-
-### Step 2: Initialize Git and Push
-
-```bash
-cd /Users/norapetrova/Projects/experiments/physics/levels-of-reality/levels-of-reality
-
-# Initialize git if not already done
-git init
-git add .
-git commit -m "Initial commit: Levels of Reality interactive demo"
-
-# Add your GitHub repository as remote
-git remote add origin https://github.com/YOUR_USERNAME/levels-of-reality.git
-
-# Push to GitHub
-git branch -M main
-git push -u origin main
-```
-
-### Step 3: Enable GitHub Pages
-
-1. Go to your repository on GitHub
-2. Click **Settings** → **Pages** (in the left sidebar)
-3. Under **Build and deployment**:
-   - **Source**: Select "GitHub Actions"
-4. The workflow will automatically run on push to `main`
-
-### Step 4: Access Your Site
-
-Your site will be live at:
-```
-https://YOUR_USERNAME.github.io/levels-of-reality/
-```
-
-The GitHub Actions workflow will automatically build and deploy on every push to `main`.
-
 ## 🛠️ Local Development
 
 ```bash
