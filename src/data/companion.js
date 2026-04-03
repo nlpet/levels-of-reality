@@ -19,7 +19,9 @@ $$
 |\\psi\\rangle_{\\text{system}} \\otimes |E_0\\rangle_{\\text{env}} \\to \\sum_i c_i |i\\rangle_{\\text{system}} \\otimes |E_i\\rangle_{\\text{env}}
 $$
 The environment "measures" the system continuously. Off-diagonal density matrix terms $\\langle i | \\rho | j \\rangle$ decay exponentially fast (~$10^{-23}$ sec for a dust grain). What remains looks classical.`,
-    why: `Decoherence solves the measurement problem *observationally* (not ontologically). It explains why we never see macroscopic superpositions: **phase information leaks into too many degrees of freedom to track**. Classical time emerges from stable "pointer states."`,
+    why: `Decoherence solves the measurement problem *observationally* but not *ontologically*. It explains why we never see macroscopic superpositions: **phase information leaks into too many degrees of freedom to track**. Classical time emerges from stable "pointer states."
+
+**What decoherence doesn't explain**: Why do we get *one specific outcome*? Decoherence suppresses interference between branches, but it doesn't select a single branch. That question depends on your interpretation—many-worlds says all branches are real, Copenhagen says the wavefunction collapses, etc. Decoherence is interpretation-neutral: it's a necessary piece of the puzzle, not the whole answer.`,
     bridge: `But this raises a puzzle: if microscopic quantum laws are **time-reversible**, why does the macro world have an arrow? ↓ Level 2`
   },
   2: {
@@ -29,7 +31,7 @@ $$
 \\Delta S \\geq 0
 $$
 Entropy ($S = k_B \\ln \\Omega$, the log of accessible microstates) increases. A broken egg has vastly more possible arrangements than an intact one. The arrow of time is statistical: we started in a **low-entropy state** (Big Bang) and have been relaxing ever since.`,
-    why: `This explains irreversibility without contradicting reversible fundamental laws. **Memory** requires entropy increase (writing to a brain increases entropy). **Causality** is directional because we can manipulate the past via records, but not the future. The thermodynamic arrow *is* the psychological arrow.
+    why: `This explains irreversibility without contradicting reversible fundamental laws. **Memory** requires entropy increase (writing to a brain increases entropy). **Causality** is directional because we have *records* of the past but not the future—record formation is itself an entropy-increasing process. The thermodynamic arrow *is* the psychological arrow.
 
 **The Great Mystery of Initial Conditions**: But this explanation pushes the question back one level: **Why did the universe start with such incredibly low entropy?** The Big Bang had an entropy of ~$10^{88}$ k_B, while today's observable universe has ~$10^{103}$ k_B. If we consider all possible microstates consistent with the universe's energy, the initial state was extraordinarily unlikely—one in $10^{10^{123}}$ or so. **Why this special initial condition?** This remains one of cosmology's deepest unsolved questions. The arrow of time is "explained" by thermodynamics, but the explanation itself rests on an unexplained cosmic boundary condition.`,
     bridge: `Decoherence itself is an entropy-increasing process. Now: what **is** the quantum substrate that decoheres and thermalizes? ↓ Level 3`
@@ -44,7 +46,7 @@ Entropy ($S = k_B \\ln \\Omega$, the log of accessible microstates) increases. A
   },
   4: {
     problem: `QFT says reality is fields—but which fields specifically? What is the actual content of our universe?`,
-    idea: `**The Standard Model**: The most experimentally verified theory in physics. It catalogs the specific fields that make up reality:
+    idea: `**The Standard Model** catalogs the specific fields that make up reality:
 
 **Matter fields (fermions):**
 - **Quarks** (6 types): up, down, charm, strange, top, bottom—organized in 3 generations
@@ -63,7 +65,9 @@ Entropy ($S = k_B \\ln \\Omega$, the log of accessible microstates) increases. A
 4. Gravity (not included—still classical!)
 
 The first three forces are **unified** in the Standard Model via gauge symmetry. Electroweak unification connects EM and weak forces. Quantum chromodynamics (QCD) describes the strong force.`,
-    why: `This is the most experimentally verified theory in physics—tested to 1 part in 10 billion at particle colliders. These specific 17 fields (12 matter + 4 force + Higgs) make up everything we've ever observed. The Standard Model grounds abstract QFT in concrete reality. **But it's incomplete**: no gravity, no dark matter, no explanation for mass hierarchy or why these specific particles exist.`,
+    why: `Tested to 1 part in a trillion (the electron's magnetic moment matches QED predictions to 12 decimal places). These specific 17 fields (12 matter + 4 force + Higgs) make up everything we've ever observed. The Standard Model grounds abstract QFT in concrete reality.
+
+**But it's incomplete**: no gravity, no dark matter, no explanation for mass hierarchy or why these specific particles exist. And crucially: **neutrino masses**. The original Standard Model predicted massless neutrinos, but neutrino oscillations (Nobel Prize 2015) proved they have mass—concrete experimental evidence that the Standard Model must be extended.`,
     bridge: `These fields don't live in isolation—they interact and couple. How do field modes exchange amplitude? ↓ Level 5`
   },
   5: {
@@ -73,12 +77,14 @@ $$
 i\\hbar \\dot{c}_i = \\sum_j H_{ij} c_j
 $$
 Each $c_i$ is a complex amplitude (a rotating phasor). The off-diagonal terms $H_{ij}$ ($i \\neq j$) are **couplings**: they let amplitude leak from node $j$ to node $i$. Entanglement is just correlated phase across nodes.`,
-    why: `This reveals quantum mechanics as a **network of phase rotations** with amplitude flowing along edges. Time evolution is the synchronized dance of all these phasors. Entanglement isn't spooky—it's phase correlation enforced by coupling terms.`,
+    why: `This reveals quantum mechanics as a **network of phase rotations** with amplitude flowing along edges. Time evolution is the synchronized dance of all these phasors. Entanglement arises from coupling—but its consequences are profoundly non-classical.
+
+**Bell's theorem** (1964): John Bell proved that entangled particles produce correlations that **no local hidden variable theory can reproduce**. Any classical explanation of entanglement—secret instructions carried by the particles, shared randomness, etc.—predicts correlations bounded by **Bell inequalities**. Quantum mechanics violates these bounds, and experiments confirm the violation (Nobel Prize 2022). This means entanglement is not merely "correlated coins"—it's a genuinely new kind of correlation with no classical analogue. The universe is either non-local, or doesn't have definite properties prior to measurement, or both.`,
     bridge: `We keep talking about energy (H) and the Hamiltonian generating time evolution. But what IS energy? Why does it have this role? ↓ Level 6`
   },
   6: {
     problem: `We keep talking about energy and the Hamiltonian. But what IS energy? Why does it generate time evolution?`,
-    idea: `**Noether's Theorem** (1915): One of the most profound insights in physics. It connects **symmetries** to **conservation laws**:
+    idea: `**Noether's Theorem** (1918): One of the most profound insights in physics. It connects **symmetries** to **conservation laws**:
 
 **Continuous symmetry → Conserved quantity**
 
@@ -115,12 +121,15 @@ For a two-level quantum system (qubit), this rotation can be visualized on the *
 $$
 P(\\text{outcome } i) = |\\langle i | \\psi \\rangle|^2
 $$
-This is usually taken as a **postulate**. Some attempts to derive it:
-- Decision-theoretic (Deutsch, Wallace): rational agents betting under uncertainty *must* use $|\\psi|^2$ to be consistent.
-- Envariance (Zurek): entanglement + symmetry → Born rule.
-- Many-worlds: branch weights.
+This is usually taken as a **postulate**. Key results constraining it:
 
-**No consensus.** It remains one of QM's deepest mysteries.`,
+- **Gleason's theorem** (1957): The strongest mathematical result. In Hilbert spaces of dimension ≥ 3, if you require a consistent probability measure over measurement outcomes, $|\\psi|^2$ is the **only** possibility. This doesn't fully "derive" Born (it assumes the Hilbert space framework and non-contextuality), but it shows the rule isn't arbitrary—it's mathematically forced given the structure of quantum mechanics.
+
+Attempts to derive it from deeper principles:
+- Decision-theoretic (Deutsch, Wallace): within the **many-worlds interpretation**, rational agents *must* use $|\\psi|^2$ to be consistent. (Note: this derivation assumes many-worlds—it's not interpretation-neutral.)
+- Envariance (Zurek): entanglement + symmetry → Born rule.
+
+**No full consensus.** Gleason constrains the rule; interpretive arguments motivate it; but the deepest "why" remains open.`,
     why: `This is an **open question**. We know *how* to use the Born rule, but not *why* it's true. Some think it's derivable from deeper principles; others think it's an axiom. This honest gap separates working physics from philosophical foundations.`,
     bridge: `Accepting Born rule for now: where does unitary evolution itself come from? ↓ Level 9`
   },
@@ -132,7 +141,7 @@ $$
 $$
 where $S$ is the **classical action** $\\int L \\, dt$. Paths near the stationary-action path (the classical trajectory) have similar phases → they interfere constructively. Wild paths cancel out.`,
     why: `This explains **why classical mechanics works**: it's the stationary-phase approximation of quantum mechanics. The principle of least action isn't fundamental—it's an **interference effect**. And it reveals what's truly fundamental: **phase accumulation**.`,
-    bridge: `Every path contributes a phase $e^{iS/\\hbar}$. The action $S = \\int E \\, dt - \\int p \\, dx$ has a time part: $E \\cdot t$. This is where time comes from. ↓ Level 10`
+    bridge: `Every path contributes a phase $e^{iS/\\hbar}$. The action $S = \\int (p \\, dx - E \\, dt)$ has a time part: $E \\cdot t$. This is where time comes from. ↓ Level 10`
   },
   10: {
     problem: `We've peeled away every layer. What is the **irreducible core**—the atomic mechanism that generates time itself?`,
@@ -143,7 +152,9 @@ $$
 The phase advances at angular frequency $\\omega = E/\\hbar$. This is the **fundamental clock**.
 
 An electron at rest ($E = mc^2$) has a Compton frequency of ~$10^{20}$ Hz. **This phase rotation IS time.** There is no deeper mechanism. Time is the rate at which quantum phase accumulates.`,
-    why: `This is the bottom (for time). Energy and frequency are the same thing ($E = \\hbar \\omega$). Every particle is a clock. Every interaction synchronizes clocks. Relativity's "proper time" is literally the phase accumulated along a worldline. **Time is not a backdrop—it's the phase of the wavefunction.**`,
+    why: `This is the bottom (for time). Energy and frequency are the same thing ($E = \\hbar \\omega$). Every particle is a clock. Every interaction synchronizes clocks. Relativity's "proper time" is literally the phase accumulated along a worldline. **Time is not a backdrop—it's the phase of the wavefunction.**
+
+**But isn't this circular?** The formula $\\psi(t) = Ae^{-iEt/\\hbar}$ already has $t$ in it—don't you need time to define phase rotation? The **Page-Wootters mechanism** (1983) resolves this. Consider the universe as a whole: the Wheeler-DeWitt equation says $H|\\Psi\\rangle = 0$—the universe is *timeless*. But if you split it into a "clock" subsystem and "the rest," entanglement between them creates the *appearance* of time evolution for each subsystem. Time emerges from correlations within a static universal state. The $t$ in Schrödinger's equation is not fundamental—it's the reading on an internal quantum clock, defined by entanglement.`,
     bridge: `But we've talked about time without mentioning **space**. Einstein unified them. What about spacetime? ↓ Level 11`
   },
   11: {
@@ -168,12 +179,13 @@ G_{\\mu\\nu} = 8\\pi G T_{\\mu\\nu}
 $$
 LEFT side = spacetime geometry (classical). RIGHT side = matter (quantum). This mismatch is unsolved.
 
-Attempts:
+Two main approaches:
 - **String theory**: 1D strings vibrating in 10D spacetime.
 - **Loop quantum gravity**: spacetime made of discrete loops.
-- **Emergent gravity** (Verlinde): gravity = entropy gradient.
 
-**No experimental evidence for any approach yet.**`,
+A third direction—**emergent spacetime**—suggests gravity and geometry arise from quantum entanglement (AdS/CFT, tensor networks), rather than being quantized directly.
+
+**No experimental evidence distinguishes these approaches yet.**`,
     why: `This is the **frontier**. We don't know if spacetime is fundamental or emergent. Hints: black hole thermodynamics (Bekenstein-Hawking), holography (entropy ~ area, not volume). Maybe spacetime emerges from entanglement, and the Big Bang was a quantum phase transition.`,
     bridge: `Three main approaches compete. Let's explore each in depth. → Level 13`
   },
@@ -239,9 +251,15 @@ This suggests spacetime is 2D information projected into 3D experience.
 
 3. **AdS/CFT correspondence**: Gravity in $(d+1)$-dimensional Anti-de Sitter space is **exactly dual** to a $d$-dimensional quantum field theory (no gravity) on the boundary. Spacetime emerges from entanglement in the boundary CFT. This is **mathematically rigorous** (proven in certain cases) and the strongest evidence for emergent spacetime.
 
-4. **Verlinde's entropic gravity** (2010): Proposed gravity as an **entropic force**—like a stretched polymer. **Status: likely incorrect**. His 2016 extension tried to explain dark matter but made predictions contradicting observations (galaxy rotation curves, lensing). Most physicists consider this approach a dead end, though the intuition about thermodynamics and gravity remains interesting.
+4. **Ryu-Takayanagi formula** (2006): The most precise connection between entanglement and geometry. The entanglement entropy of a boundary region $A$ equals the area of the minimal surface in the bulk that bounds it:
+$$
+S_A = \\frac{\\text{Area}(\\gamma_A)}{4 G_N}
+$$
+This is **proven within AdS/CFT** and directly shows that spatial geometry is *encoded* in entanglement structure. It's the quantitative backbone of the "spacetime from entanglement" program.
 
-5. **Tensor networks**: Models like MERA (Multi-scale Entanglement Renormalization Ansatz) show how spatial geometry can emerge from entanglement structure in Hilbert space. This is an **active research area** with rigorous results connecting entanglement entropy to geometry.`,
+5. **Verlinde's entropic gravity** (2010): Proposed gravity as an **entropic force**—like a stretched polymer. **Status: likely incorrect**. His 2016 extension tried to explain dark matter but made predictions contradicting observations (galaxy rotation curves, lensing). Most physicists consider this approach a dead end, though the intuition about thermodynamics and gravity remains interesting.
+
+6. **Tensor networks**: Models like MERA (Multi-scale Entanglement Renormalization Ansatz) show how spatial geometry can emerge from entanglement structure in Hilbert space. This is an **active research area** with rigorous results connecting entanglement entropy to geometry.`,
     why: `This is the **most radical** proposal, but with varying levels of support. **Strong evidence**: AdS/CFT is proven in special cases and shows spacetime can emerge from quantum entanglement. Black hole entropy ~ area suggests deep connection. **Active research**: Tensor networks, quantum error correction ↔ geometry. **Failed approaches**: Verlinde's entropic gravity hasn't held up empirically. **The big picture**: We have hints that spacetime emerges from entanglement, but no complete theory for our universe (AdS/CFT works in Anti-de Sitter space, not our de Sitter universe). Still highly speculative but the most conceptually promising direction.`,
     bridge: `↻ **Full circle**: We started asking "What is time?" We descended through quantum phase rotation, fields, entanglement, spacetime. Now we've seen that spacetime itself may emerge from entanglement. Time is phase; space is entanglement; reality is woven from quantum information. ↻ Back to Level 0 with deeper eyes.`
   }

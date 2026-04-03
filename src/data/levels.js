@@ -33,7 +33,7 @@ export const LEVELS = [
     id: 5,
     title: "5. Coupled Subsystems & Entanglement",
     subtitle: "How systems interact",
-    desc: "Amplitude flows between coupled nodes. Off-diagonal Hamiltonian terms create correlations—entanglement.",
+    desc: "Quantum systems interact by sharing amplitude. Entanglement—non-separable joint states—produces correlations no classical theory can explain.",
   },
   {
     id: 6,
@@ -110,7 +110,7 @@ export const INFO = {
   9: { math: "$\\Psi(B) = \\sum_{\\text{paths}} e^{iS[\\text{path}]/\\hbar}$ — path integral", link: "↓ All paths share one feature: phase accumulation..." },
   10: { math: "$\\psi(t) = A e^{-iEt/\\hbar}$, where $\\omega = E/\\hbar$", link: "↓ This is time. But time and SPACE are unified—what about relativity?" },
   11: { math: "Proper time: $d\\tau^2 = dt^2 - dx^2/c^2$. Phase $\\propto \\int mc^2 d\\tau$", link: "↓ Spacetime is the arena. But what about spacetime ITSELF?" },
-  12: { math: "Quantum gravity: $G_{\\mu\\nu} = 8\\pi G T_{\\mu\\nu}$ ← classical! No quantum version yet.", link: "↓ Three paths forward: strings, loops, or emergence..." },
+  12: { math: "Quantum gravity: $G_{\\mu\\nu} = 8\\pi G T_{\\mu\\nu}$ ← classical! No quantum version yet.", link: "↓ Two main approaches and a radical alternative..." },
   13: { math: "String: $X^\\mu(\\sigma, \\tau)$ — string worldsheet. Closed strings ⊃ graviton mode $h_{\\mu\\nu}$", link: "→ Next: Loop Quantum Gravity—discrete spacetime atoms..." },
   14: { math: "LQG: $\\hat{A}_i^a, \\hat{E}_a^i$ — area & volume are quantized. Spin networks.", link: "→ Next: Emergent spacetime from entanglement..." },
   15: { math: "ER=EPR: entangled qubits ≈ wormhole. $S_{entanglement} \\sim$ area. Spacetime = illusion.", link: "↻ Full circle: macroscopic time emerges from microscopic phase. ↻ Level 0" },

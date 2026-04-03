@@ -6,14 +6,11 @@ import { Card } from "./components/Card";
 import { Companion } from "./components/Companion";
 import {
   ScenePhasor,
-  SceneWave1D,
   ScenePathIntegral,
   SceneBlochSphere,
   SceneNetwork,
-  SceneField2D,
   SceneMystery,
   SceneDecoherence,
-  SceneClassical,
   SceneArrowOfTime,
   SceneQFT,
   SceneStandardModel,
